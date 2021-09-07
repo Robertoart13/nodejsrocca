@@ -1,7 +1,7 @@
 const express = require('express');
 
 const app= express();
-app.get('/',(req, res) =>res.send('SERVIDOR EJECUTANDOSE NODEJS aws'))
+app.get('/',(req, res) =>res.send('<h1> APP DE NODE JS</h1>'))
 
 
 
